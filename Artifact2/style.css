@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #F0F0F0;
+}
+
+header {
+    background-color: #333;
+    margin: 20px 0;
+}
+
+.heading {
+    font-family: 'Font Name', sans-serif; /* Replace 'Font Name' with the desired font */
+    color: white;
+    margin: 20px 0;
+}
+
+#chessboard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    background-image: url(chessboard-background.jpg); /* Replace 'chessboard-background.jpg' with the actual image file */
+}
+
+#chessboard div {
+    width: 12.5%;
+    height: 0;
+    padding-bottom: 12.5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#chessboard div:nth-child(even) {
+    background-color: #D3D3D3;
+}
+
+footer {
+    background-color: #333;
+    margin: 20px 0;
+    padding: 20px 0;
+}
+
+footer p {
+    display: inline-block;
+    margin: 10px;
+}
+
+footer img {
+    vertical-align: middle;
+}
