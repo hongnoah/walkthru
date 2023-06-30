@@ -1,5 +1,5 @@
 * {
-	font-family: Arial, Verdana, sans-serif;
+	font-family: Jazz LET, fantasy;
 	color: #665544;
 	text-align: center;
 }
@@ -18,7 +18,6 @@ body {
 	width: 31.3%;
 	float: left;
 	margin: 1%;
-	background-color: #00DCFF;
 }
 
 .column3 {
@@ -31,21 +30,39 @@ li {
 }
 
 #nav, #footer {
-	background-color: #efefef;
 	padding: 0.5em 0;
 }
 
 #feature, .article {
 	height: 10em;
 	margin-bottom: 1em;
-	background-color: #efefef;
-	background-image: url('your-feature-image.jpg');
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8-GiW9amVu24AJFly09UjFHsi-dsrshsQnRGTqiLepA&s');
 }
 
 h1 {
 	font-family: 'Open Sans', sans-serif;
 }
-h1 {
-  font-family: 'LemonRegular', sans-serif;
+#nav {
+	background-color: #FF0000; 
+}
+
+#feature {
+	background-color: #97FF00; 
+}
+
+.column1 {
+	background-color: #00FFF0;
+}
+
+.column2 {
+	background-color: #1B00FF;
+}
+
+.column3 {
+	background-color: #FF00E0; 
+}
+
+#footer {
+	background-color: #E8E8E8; 
 }
 
