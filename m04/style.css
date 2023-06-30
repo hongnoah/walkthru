@@ -1,0 +1,66 @@
+* {
+	font-family: Jazz LET, fantasy;
+	color: #665544;
+	text-align: center;
+}
+
+body {
+	width: 90%;
+	margin: 0 auto;
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9SX3b0HY0f8rvoL08o4tMVOIeGWepwdujkl4ebDmsbw&s');
+}
+
+#nav, #feature, #footer {
+	margin: 1%;
+}
+
+.column1, .column2, .column3 {
+	width: 31.3%;
+	float: left;
+	margin: 1%;
+}
+
+.column3 {
+	margin-right: 0%;
+}
+
+li {
+	display: inline;
+	padding: 0.5em;
+}
+
+#nav, #footer {
+	padding: 0.5em 0;
+}
+
+#feature, .article {
+	height: 10em;
+	margin-bottom: 1em;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+}
+#nav {
+	background-color: #FF0000; 
+}
+
+#feature {
+	background-color: #97FF00; 
+}
+
+.column1 {
+	background-color: #00FFF0;
+}
+
+.column2 {
+	background-color: #1B00FF;
+}
+
+.column3 {
+	background-color: #FF00E0; 
+}
+
+#footer {
+	background-color: #E8E8E8; 
+}
