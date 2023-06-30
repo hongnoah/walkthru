@@ -36,6 +36,7 @@ li {
 #feature, .article {
 	height: 10em;
 	margin-bottom: 1em;
+	background-image: url ('your-image-here')
 }
 
 h1 {
