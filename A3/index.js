@@ -1,3 +1,4 @@
+	
 // var rHeight =5;
 // var colorEven = "orange";
 // var colorOdd = "black";
@@ -53,5 +54,6 @@ rLine +="</p>";
 // console.log(rLine);
 
 }
-document.getElementById("downRight").innerHTML = rLine;
 
+document.getElementById("downRight").innerHTML = rLine;
+}
