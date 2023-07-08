@@ -8,7 +8,7 @@ function Hotel(name, rooms, booked) {
   };
 }
 
-var quayHotel = new Hotel('Quay', 40, 25);
+var quayHotel = new Hotel('Quay', 86, 10);
 var parkHotel = new Hotel('Park', 120, 77);
 var sunsetHotel = new Hotel('Sunset', 86, 10); // Add Sunset hotel with 76 rooms
 
