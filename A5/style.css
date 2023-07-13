@@ -1,0 +1,17 @@
+#slideshow-container {
+  text-align: center;
+}
+
+#slideshow-image {
+  width: 400px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+#image-description {
+  margin-bottom: 10px;
+}
+
+#prev-button, #next-button {
+  padding: 5px 10px;
+}
